@@ -45,11 +45,15 @@ h2 {
 /* -------------------------- */
 
 nav {
-  margin-top: 40px;
+  margin-top: 80px;
+}
+
+nav h1 {
+  display: inline-block; /* Allows main nav to be on right side*/
 }
 
 .about {
-  margin-top: 80px;
+  margin-top: 95px;
 }
 
 .about img {
@@ -57,6 +61,7 @@ nav {
   height: auto;
   float: left;
   margin-left: 20px;
+  margin-bottom: 235px;
 }
 
 .about-text-content {
@@ -72,4 +77,30 @@ nav {
 
 .about-text-content p {
   line-height: 1.6;
+}
+
+.main-nav {
+  list-style: none;
+  float: right;
+  margin-top: 15px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 27px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  font-size: 85%;
+  font-weight: 400;
+  color: rgb(177, 177, 177);
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  color: rgb(68, 67, 67);
 }
