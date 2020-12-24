@@ -22,4 +22,4 @@ Clone of an artists website
      - a
       - text-decoration: none
    - Functionality
-    - Use of :link, :visited and :hover, :active with transition to create a cool link hover over effect
+      - Use of :link, :visited and :hover, :active with transition to create a cool link hover over effect
