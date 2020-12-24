@@ -27,14 +27,14 @@ html {
 
 /* --- Headings --- */
 h1 {
-  font-size: 220%;
+  font-size: 240%;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 h2 {
-  font-size: 150%;
+  font-size: 170%;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -44,14 +44,32 @@ h2 {
 /* Header */
 /* -------------------------- */
 
-.about-text-content {
-  width: 50%;
-  float: left;
-  position: relative;
+nav {
+  margin-top: 40px;
+}
+
+.about {
+  margin-top: 80px;
 }
 
 .about img {
   width: 40vw;
   height: auto;
   float: left;
+  margin-left: 20px;
+}
+
+.about-text-content {
+  width: 50%;
+  float: left;
+  position: relative;
+  padding-right: 35px;
+}
+
+.about-text-content h2 {
+  margin-bottom: 18px;
+}
+
+.about-text-content p {
+  line-height: 1.6;
 }
